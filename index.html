@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <title>Document</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./css/style.css">
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js" defer></script>
+  <script src="./js/main.js" defer></script>
+
+</head>
+
+<body>
+
+
+  <div class="header-main">
+    <div class="container">
+
+      <div class="header__top-bar">
+        <div class="top-bar__wrapper">
+          <div class="top-bar__modal">
+            <div class="top-bar__modal-text">
+              Хабаровск
+            </div>
+            <img class="top-bar__modal-img" src="./images/icon/angle-up.svg" alt="">
+          </div>
+          <div class="top-bar__line">
+            <span class="line-shadow__one"></span>
+            <p class="text-line"> Срок доставки 1 день</p>
+            <p class="text-line"> Срок доставки 1 день</p>
+            <p class="text-line"> Срок доставки 1 день</p>
+            <p class="text-line"> Срок доставки 1 день</p>
+            <p class="text-line"> Срок доставки 1 день</p>
+            <span class="line-shadow__second"></span>
+          </div>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a class="menu__item-link" href="#!">Новинки</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__item-link" href="#!">Магазины</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__item-link" href="#!">Помощь</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__item-link" href="#!">Блог</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__item-link" href="#!">Сертификаты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="top-bar__icon">
+          <div class="user__modal">
+            <img class="top-bar__icon-img" src="./images/icon/user.svg" alt="user">
+          </div>
+          <div class="top-bar__like">
+            <img class="top-bar__icon-img" src="./images/icon/heart.svg" alt="heart">
+          </div>
+          <div class="top-bar__basket">
+            <img class="top-bar__icon-img" src="./images/icon/shopping-basket.svg" alt="basket">
+            <span class="basket__nan">2</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="container">
+        <div class="header__bottom-bar">
+          <div class="header__bottom-box">
+            <div class="header__bottom-logo">
+              <img class="header__logo" src="./images/logo.png" alt="logo">
+            </div>
+            <div class="header__bottom-gender">
+              <a class="gender__link" href="#!">Мужчины</a>
+              <a class="gender__link" href="#!">Женщины</a>
+              <a class="gender__link" href="#!">Дети</a>
+            </div>
+          </div>
+          <div class="header__bottom-search">
+            <input class="header__search" type="search" placeholder="Поиск" maxlength="20">
+            <img class="search__img" src="./images/icon/search.svg" alt="search">
+          </div>
+          <div class="header__bottom-box__link">
+            <div class="header__bottom-phone">
+              <img class="phone__img" src="./images/icon/phone-volume.svg" alt="phone">
+              <a class="phone__link" href="tel:8800000000">8 (800) 00-00-00</a>
+            </div>
+            <div class="header__bottom-social">
+              <img class="social__img" src="./images/icon/whatsapp.svg" alt="">
+              <a class="social__link" href="#!">WhatsApp</a>
+            </div>
+          </div>
+        </div>
+        <div class="header__categories">
+          <ul class="categories__list">
+            <li class="categories__item" data-button="tab-1">
+              <a class="categories__item-link" href="#!">Бренды</a>
+            </li>
+            <li class="categories__item" data-button="tab-2">
+              <a class="categories__item-link" href="#!">Сноубординг</a>
+            </li>
+            <li class="categories__item" data-button="tab-3">
+              <a class="categories__item-link" href="#!">Скейтбординг</a>
+            </li>
+            <li class="categories__item" data-button="tab-4">
+              <a class="categories__item-link" href="#!">Вейкбординг</a>
+            </li>
+            <li class="categories__item" data-button="tab-5">
+              <a class="categories__item-link" href="#!">Лонгборды</a>
+            </li>
+            <li class="categories__item" data-button="tab-6">
+              <a class="categories__item-link" href="#!">Самокаты</a>
+            </li>
+            <li class="categories__item" data-button="tab-7">
+              <a class="categories__item-link" href="#!">SUP</a>
+            </li>
+            <li class="categories__item" data-button="tab-8">
+              <a class="categories__item-link" href="#!">Одежда</a>
+            </li>
+            <li class="categories__item" data-button="tab-9">
+              <a class="categories__item-link" href="#!">Обувь</a>
+            </li>
+            <li class="categories__item" data-button="tab-10">
+              <a class="categories__item-link" href="#!">Аксессуары</a>
+            </li>
+            <li class="categories__item" data-button="tab-11">
+              <a class="categories__item-link" href="#!">Скидки</a>
+            </li>
+          </ul>
+          <div class="categories__tab-window">
+            <div class="categories__tab modal-active" data-modal id="tab-1">
+              <ul class="tab__list">
+                <li class="tab__item">
+                  <a class="tab__item-link" href="#!">Сноубординг</a>
+                </li>
+                <li class="tab__item">
+                  <a class="tab__item-link" href="#!">Крепления</a>
+                </li>
+                <li class="tab__item">
+                  <a class="tab__item-link" href="#!">Ботинки</a>
+                </li>
+                <li class="tab__item">
+                  <a class="tab__item-link" href="#!">Защита</a>
+                </li>
+                <li class="tab__item">
+                  <a class="tab__item-link" href="#!">Шлемы</a>
+                </li>
+              </ul>
+              <ul class="tab__list">
+                <li class="tab__item">
+                  <a class="tab__item-link" href="#!">Маска</a>
+                </li>
+                <li class="tab__item">
+                  <a class="tab__item-link" href="#!">Комплекты</a>
+                </li>
+                <li class="tab__item">
+                  <a class="tab__item-link" href="#!">Аксессуары</a>
+                </li>
+                <li class="tab__item">
+                  <a class="tab__item-link" href="#!">Куртки для сноуборда</a>
+                </li>
+                <li class="tab__item">
+                  <a class="tab__item-link" href="#!">Штаны для сноуборда</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+
+    <main class="main">
+      <div class="container">
+        <div class="main__wrapper">
+
+
+
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="main-fone">
+                  <div class="main__img">
+                    <img class="main-fone__img" src="./images/fone-1.jpg" alt="fone">
+                  </div>
+                  <div class="main__content">
+                    <div class="main__title">
+                      Ликвидация зимних <br> коллекций прошлых лет!
+                    </div>
+                    <div class="main__text">
+                      Проводится ликвидация зимних коллекций <br>
+                      прошедших сезонов со скидками до 70%
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="main-fone">
+                  <div class="main__img">
+                    <img class="main-fone__img" src="./images/fone-2.jpg" alt="fone">
+                  </div>
+                  <div class="main__content">
+                    <div class="main__title">
+                      Ликвидация зимних <br> коллекций прошлых лет!
+                    </div>
+                    <div class="main__text">
+                      Проводится ликвидация зимних коллекций <br>
+                      прошедших сезонов со скидками до 70%
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="main__batton">
+            <a class="main__batton-link" href="#!">Смотреть все товары</a>
+            <img class="batton-link__arrow" src="./images/icon/arrow-right.svg" alt="arrow-right">
+          </div>
+
+
+          <div class="main__brands-wrapper">
+            <div class="main__brands-img">
+              <a href="#!">
+                <img class="brands-img" src="images/brands/nike.png" alt="">
+              </a>
+            </div>
+            <div class="main__brands-img">
+              <a href="#!">
+                <img class="brands-img" src="images/brands/vans.png" alt="">
+              </a>
+            </div>
+            <div class="main__brands-img">
+              <a href="#!">
+                <img class="brands-img" src="images/brands/obey.png" alt="">
+              </a>
+            </div>
+            <div class="main__brands-img">
+              <a href="#!">
+                <img class="brands-img" src="images/brands/stussy.png" alt="">
+              </a>
+            </div>
+            <div class="main__brands-img">
+              <a href="#!">
+                <img class="brands-img" src="images/brands/huf.png" alt="">
+              </a>
+            </div>
+            <div class="main__brands-img">
+              <a href="#!">
+                <img class="brands-img" src="images/brands/carcharrt.png" alt="">
+              </a>
+            </div>
+            <div class="main__brands-img">
+              <a href="#!">
+                <img class="brands-img" src="images/brands/levis.png" alt="">
+              </a>
+            </div>
+            <div class="main__brands-img">
+              <a href="#!">
+                <img class="brands-img" src="images/brands/penfield.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+    <section class="types-sports">
+      <div class="container">
+        <div class="types-sports__wrapper">
+
+
+          <div class="types-sports__title">
+            Виды спорта
+          </div>
+
+
+          <div class="types-sports__card">
+            <div class="sports__card">
+              <img class="sports__card-img" src="./images/sports-card-bodrs.png" alt="bodrs">
+              <a class="sports__card-link" href="#!">Сноубординг
+                <img class="card-link__arrow" src="./images/icon/arrow-right.svg" alt="">
+              </a>
+            </div>
+
+            <div class="sports__card">
+              <img class="sports__card-img" src="./images/sports-card-ski.png" alt="ski">
+              <a class="sports__card-link" href="#!">Горные лыжи
+                <img class="card-link__arrow" src="./images/icon/arrow-right.svg" alt="">
+              </a>
+            </div>
+
+            <div class="sports__card">
+              <img class="sports__card-img" src="./images/sports-card-bodr.png" alt="bodr">
+              <a class="sports__card-link" href="#!">Скейтбординг
+                <img class="card-link__arrow" src="./images/icon/arrow-right.svg" alt="">
+              </a>
+            </div>
+          </div>
+
+
+          <div class="types-sports__products">
+
+            <div class="sports-products">
+              <div class="products__img solid-dashed">
+                <a class="sports-products-link" href="#!">
+                  <img class="sports-products__img" src="./images/products/bord.png" alt="">
+                </a>
+              </div>
+              <div class="sports-products__text">
+                Новинки
+              </div>
+            </div>
+
+            <div class="sports-products ">
+              <div class="products__img solid-line">
+
+                <a class="sports-products-link" href="#!">
+                  <img class="sports-products__img" src="./images/products/boots.png" alt="">
+                </a>
+              </div>
+              <div class="sports-products__text">
+                Новинки
+              </div>
+            </div>
+
+            <div class="sports-products">
+              <div class="products__img solid-line">
+                <a class="sports-products-link" href="#!">
+                  <img class="sports-products__img" src="./images/products/boots-2.png" alt="">
+                </a>
+              </div>
+              <div class="sports-products__text">
+                Новинки
+              </div>
+            </div>
+
+            <div class="sports-products">
+              <div class="products__img solid-line">
+                <a class="sports-products-link" href="#!">
+                  <img class="sports-products__img" src="./images/products/cap.png" alt="">
+                </a>
+              </div>
+              <div class="sports-products__text">
+                Новинки
+              </div>
+            </div>
+
+            <div class="sports-products">
+              <div class="products__img solid-line">
+                <a class="sports-products-link" href="#!">
+                  <img class="sports-products__img" src="./images/products/gloves.png" alt="">
+                </a>
+              </div>
+              <div class="sports-products__text">
+                Новинки
+              </div>
+            </div>
+
+            <div class="sports-products">
+              <div class="products__img solid-dashed">
+                <a class="sports-products-link" href="#!">
+                  <img class="sports-products__img" src="./images/products/knee.png" alt="">
+                </a>
+              </div>
+              <div class="sports-products__text">
+                Новинки
+              </div>
+            </div>
+
+            <div class="sports-products">
+              <div class="products__img solid-dashed">
+                <a class="sports-products-link" href="#!">
+                  <img class="sports-products__img" src="./images/products/jacket.png" alt="">
+                </a>
+              </div>
+              <div class="sports-products__text">
+                Новинки
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- третий экран  -->
+
+    <section class="snowboards">
+      <div class="container">
+
+        <div class="snowboards__main-title">
+          Сноуборды для горнолыжных склонов
+        </div>
+
+        <div class="snowboards__wrapper">
+          <div class="snowboards__card-wrapper">
+
+            <div class="snowboards__card">
+              <div class="snowboards__img">
+                <svg class="snowboards__like" viewBox="0 0 24 24" id="heart">
+                  <path fill="#8B8B8B"
+                    d="M20.16,5A6.29,6.29,0,0,0,12,4.36a6.27,6.27,0,0,0-8.16,9.48l6.21,6.22a2.78,2.78,0,0,0,3.9,0l6.21-6.22A6.27,6.27,0,0,0,20.16,5Zm-1.41,7.46-6.21,6.21a.76.76,0,0,1-1.08,0L5.25,12.43a4.29,4.29,0,0,1,0-6,4.27,4.27,0,0,1,6,0,1,1,0,0,0,1.42,0,4.27,4.27,0,0,1,6,0A4.29,4.29,0,0,1,18.75,12.43Z">
+                  </path>
+                </svg>
+                <img class="card__img" src="./images/boots-1.png" alt="boots">
+              </div>
+              <div class="snowboards__content">
+                <div class="snowboards__title">
+                  DC
+                </div>
+                <div class="snowboards__text">
+                  Ботинки для сноуборда <span class="snowboards__text-up">DC SEARCH</span>
+                </div>
+                <span class="snowboards__price"> 18 990 руб</span>
+              </div>
+              <div class="snowboards__card-btn">
+                <button class="card-btn">Добавить</button>
+              </div>
+            </div>
+
+            <div class="snowboards__card">
+              <div class="snowboards__img">
+                <svg class="snowboards__like" viewBox="0 0 24 24" id="heart">
+                  <path fill="#8B8B8B"
+                    d="M20.16,5A6.29,6.29,0,0,0,12,4.36a6.27,6.27,0,0,0-8.16,9.48l6.21,6.22a2.78,2.78,0,0,0,3.9,0l6.21-6.22A6.27,6.27,0,0,0,20.16,5Zm-1.41,7.46-6.21,6.21a.76.76,0,0,1-1.08,0L5.25,12.43a4.29,4.29,0,0,1,0-6,4.27,4.27,0,0,1,6,0,1,1,0,0,0,1.42,0,4.27,4.27,0,0,1,6,0A4.29,4.29,0,0,1,18.75,12.43Z">
+                  </path>
+                </svg>
+                <img class="card__img" src="./images/board.png" alt="board">
+              </div>
+              <div class="snowboards__content">
+                <div class="snowboards__title">
+                  CAPITA
+                </div>
+                <div class="snowboards__text">
+                  Сноуборд <span class="snowboards__text-up">CAPITA <br> MICRO MINI</span>
+                </div>
+                <span class="snowboards__price"> 26 950 руб</span>
+              </div>
+              <div class="snowboards__card-btn">
+                <button class="card-btn">Добавить</button>
+              </div>
+            </div>
+
+            <div class="snowboards__card">
+              <div class="snowboards__img">
+                <svg class="snowboards__like" viewBox="0 0 24 24" id="heart">
+                  <path fill="#8B8B8B"
+                    d="M20.16,5A6.29,6.29,0,0,0,12,4.36a6.27,6.27,0,0,0-8.16,9.48l6.21,6.22a2.78,2.78,0,0,0,3.9,0l6.21-6.22A6.27,6.27,0,0,0,20.16,5Zm-1.41,7.46-6.21,6.21a.76.76,0,0,1-1.08,0L5.25,12.43a4.29,4.29,0,0,1,0-6,4.27,4.27,0,0,1,6,0,1,1,0,0,0,1.42,0,4.27,4.27,0,0,1,6,0A4.29,4.29,0,0,1,18.75,12.43Z">
+                  </path>
+                </svg>
+                <img class="card__img" src="./images/helmet.png" alt="helmet">
+              </div>
+              <div class="snowboards__content">
+                <div class="snowboards__title">
+                  ANON
+                </div>
+                <div class="snowboards__text">
+                  Шлем <span class="snowboards__text-up">ANON RULE <br> DEDINDER</span>
+                </div>
+                <span class="snowboards__price"> 16 400 руб</span>
+              </div>
+              <div class="snowboards__card-btn">
+                <button class="card-btn">Добавить</button>
+              </div>
+            </div>
+
+            <div class="snowboards__card">
+              <div class="snowboards__img">
+                <svg class="snowboards__like" viewBox="0 0 24 24" id="heart">
+                  <path fill="#8B8B8B"
+                    d="M20.16,5A6.29,6.29,0,0,0,12,4.36a6.27,6.27,0,0,0-8.16,9.48l6.21,6.22a2.78,2.78,0,0,0,3.9,0l6.21-6.22A6.27,6.27,0,0,0,20.16,5Zm-1.41,7.46-6.21,6.21a.76.76,0,0,1-1.08,0L5.25,12.43a4.29,4.29,0,0,1,0-6,4.27,4.27,0,0,1,6,0,1,1,0,0,0,1.42,0,4.27,4.27,0,0,1,6,0A4.29,4.29,0,0,1,18.75,12.43Z">
+                  </path>
+                </svg>
+                <img class="card__img" src="./images/glasses.png" alt="glasses">
+              </div>
+              <div class="snowboards__content">
+                <div class="snowboards__title">
+                  DRAGON
+                </div>
+                <div class="snowboards__text">
+                  Маска <span class="snowboards__text-up">DRAGON EYES <br> PXV2</span>
+                </div>
+                <span class="snowboards__price"> 29 100 руб</span>
+              </div>
+
+              <div class="snowboards__card-btn">
+                <button class="card-btn">Добавить</button>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="snowboards-baner">
+
+            <div class="snowboards-baner__img">
+              <img class="baner__img" src="./images/baner-1.jpg" alt="baner">
+            </div>
+
+
+            <div class="snowboards-baner__title">
+              Как выбрать сноуборд и <br> экиперовку
+            </div>
+
+            <div class="snowboards-baner__btn">
+              <a class="baner-btn__link" href="#!">Перейти к статье
+                <img class="baner__btn-arrow" src="./images/icon/arrow-right.svg" alt="">
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- окно четыре  -->
+
+
+    <section class="compilations">
+      <div class="container">
+
+        <div class="compilations__title">
+          Подборки
+        </div>
+
+        <div class="compilations__content">
+          <div class="compilations__box">
+            <div class="compilations-box__img">
+              <img class="compilations__img" src="./images/compilations/compilations-1.jpg" alt="">
+            </div>
+            <div class="compilations-box__text">
+              Коллекция новых <br> сноубордов Burton
+            </div>
+            <div class="compilations-box__btn">
+              <a class="compilations-box__btn-link" href="#!">Перейти
+                <img class="btn-link__arrow" src="./images/icon/arrow-right-black.svg" alt="arrow">
+              </a>
+            </div>
+          </div>
+
+          <div class="compilations__box">
+            <div class="compilations-box__img">
+              <img class="compilations__img" src="./images/compilations/compilations-2.jpg" alt="">
+            </div>
+            <div class="compilations-box__text">
+              Будь яркой на склоне в <br> Сахалине
+            </div>
+            <div class="compilations-box__btn">
+              <a class="compilations-box__btn-link" href="#!">Перейти
+                <img class="btn-link__arrow" src="./images/icon/arrow-right-black.svg" alt="arrow">
+              </a>
+            </div>
+          </div>
+
+          <div class="compilations__box">
+            <div class="compilations-box__img">
+              <img class="compilations__img" src="./images/compilations/compilations-3.jpg" alt="">
+            </div>
+            <div class="compilations-box__text">
+              Город ритм жизни <br>
+            </div>
+            <div class="compilations-box__btn">
+              <a class="compilations-box__btn-link" href="#!">Перейти
+                <img class="btn-link__arrow" src="./images/icon/arrow-right-black.svg" alt="arrow">
+              </a>
+            </div>
+          </div>
+
+          <div class="compilations__box">
+            <div class="compilations-box__img">
+              <img class="compilations__img" src="./images/compilations/compilations-4.jpg" alt="">
+            </div>
+            <div class="compilations-box__text">
+              С заботой о горах <br>
+            </div>
+            <div class="compilations-box__btn">
+              <a class="compilations-box__btn-link" href="#!">Перейти
+                <img class="btn-link__arrow" src="./images/icon/arrow-right-black.svg" alt="arrow">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- окно пять -->
+
+    <section class="newproducts">
+      <div class="container">
+        <div class="newproducts__title">
+          Новинки из коллекций лучших брендов
+        </div>
+
+
+        <div class="newproducts__content">
+          <div class="snowboards__card">
+            <div class="snowboards__img">
+              <svg class="snowboards__like" viewBox="0 0 24 24" id="heart">
+                <path fill="#8B8B8B"
+                  d="M20.16,5A6.29,6.29,0,0,0,12,4.36a6.27,6.27,0,0,0-8.16,9.48l6.21,6.22a2.78,2.78,0,0,0,3.9,0l6.21-6.22A6.27,6.27,0,0,0,20.16,5Zm-1.41,7.46-6.21,6.21a.76.76,0,0,1-1.08,0L5.25,12.43a4.29,4.29,0,0,1,0-6,4.27,4.27,0,0,1,6,0,1,1,0,0,0,1.42,0,4.27,4.27,0,0,1,6,0A4.29,4.29,0,0,1,18.75,12.43Z">
+                </path>
+              </svg>
+              <img class="card__img" src="./images/boots-1.png" alt="boots">
+            </div>
+            <div class="snowboards__content">
+              <div class="snowboards__title">
+                DC
+              </div>
+              <div class="snowboards__text">
+                Ботинки для сноуборда <span class="snowboards__text-up">DC SEARCH</span>
+              </div>
+              <span class="snowboards__price"> 18 990 руб</span>
+            </div>
+            <div class="snowboards__card-btn">
+              <button class="card-btn">Добавить</button>
+            </div>
+          </div>
+
+          <div class="snowboards__card">
+            <div class="snowboards__img">
+              <svg class="snowboards__like" viewBox="0 0 24 24" id="heart">
+                <path fill="#8B8B8B"
+                  d="M20.16,5A6.29,6.29,0,0,0,12,4.36a6.27,6.27,0,0,0-8.16,9.48l6.21,6.22a2.78,2.78,0,0,0,3.9,0l6.21-6.22A6.27,6.27,0,0,0,20.16,5Zm-1.41,7.46-6.21,6.21a.76.76,0,0,1-1.08,0L5.25,12.43a4.29,4.29,0,0,1,0-6,4.27,4.27,0,0,1,6,0,1,1,0,0,0,1.42,0,4.27,4.27,0,0,1,6,0A4.29,4.29,0,0,1,18.75,12.43Z">
+                </path>
+              </svg>
+              <img class="card__img" src="./images/board.png" alt="board">
+            </div>
+            <div class="snowboards__content">
+              <div class="snowboards__title">
+                CAPITA
+              </div>
+              <div class="snowboards__text">
+                Сноуборд <span class="snowboards__text-up">CAPITA <br> MICRO MINI</span>
+              </div>
+              <span class="snowboards__price"> 26 950 руб</span>
+            </div>
+            <div class="snowboards__card-btn">
+              <button class="card-btn">Добавить</button>
+            </div>
+          </div>
+
+          <div class="snowboards__card">
+            <div class="snowboards__img">
+              <svg class="snowboards__like" viewBox="0 0 24 24" id="heart">
+                <path fill="#8B8B8B"
+                  d="M20.16,5A6.29,6.29,0,0,0,12,4.36a6.27,6.27,0,0,0-8.16,9.48l6.21,6.22a2.78,2.78,0,0,0,3.9,0l6.21-6.22A6.27,6.27,0,0,0,20.16,5Zm-1.41,7.46-6.21,6.21a.76.76,0,0,1-1.08,0L5.25,12.43a4.29,4.29,0,0,1,0-6,4.27,4.27,0,0,1,6,0,1,1,0,0,0,1.42,0,4.27,4.27,0,0,1,6,0A4.29,4.29,0,0,1,18.75,12.43Z">
+                </path>
+              </svg>
+              <img class="card__img" src="./images/helmet.png" alt="helmet">
+            </div>
+            <div class="snowboards__content">
+              <div class="snowboards__title">
+                ANON
+              </div>
+              <div class="snowboards__text">
+                Шлем <span class="snowboards__text-up">ANON RULE <br> DEDINDER</span>
+              </div>
+              <span class="snowboards__price"> 16 400 руб</span>
+            </div>
+            <div class="snowboards__card-btn">
+              <button class="card-btn">Добавить</button>
+            </div>
+          </div>
+
+          <div class="snowboards__card">
+            <div class="snowboards__img">
+              <svg class="snowboards__like" viewBox="0 0 24 24" id="heart">
+                <path fill="#8B8B8B"
+                  d="M20.16,5A6.29,6.29,0,0,0,12,4.36a6.27,6.27,0,0,0-8.16,9.48l6.21,6.22a2.78,2.78,0,0,0,3.9,0l6.21-6.22A6.27,6.27,0,0,0,20.16,5Zm-1.41,7.46-6.21,6.21a.76.76,0,0,1-1.08,0L5.25,12.43a4.29,4.29,0,0,1,0-6,4.27,4.27,0,0,1,6,0,1,1,0,0,0,1.42,0,4.27,4.27,0,0,1,6,0A4.29,4.29,0,0,1,18.75,12.43Z">
+                </path>
+              </svg>
+              <img class="card__img" src="./images/glasses.png" alt="glasses">
+            </div>
+            <div class="snowboards__content">
+              <div class="snowboards__title">
+                DRAGON
+              </div>
+              <div class="snowboards__text">
+                Маска <span class="snowboards__text-up">DRAGON EYES <br> PXV2</span>
+              </div>
+              <span class="snowboards__price"> 29 100 руб</span>
+            </div>
+
+            <div class="snowboards__card-btn">
+              <button class="card-btn">Добавить</button>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="newproducts__btn">
+          <a class="newproducts__btn-link" href="#!">Перейти к покупкам</a>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
